@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4240CB32917F105000DB33B /* FavoritesMoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4240CB22917F105000DB33B /* FavoritesMoviesViewModel.swift */; };
+		F4240CB52917F18C000DB33B /* FavoriteMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4240CB42917F18C000DB33B /* FavoriteMoviesViewController.swift */; };
+		F48DEDCE2916C44500C16DC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48DEDCD2916C44500C16DC8 /* AppDelegate.swift */; };
+		F48DEDD02916C44500C16DC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48DEDCF2916C44500C16DC8 /* SceneDelegate.swift */; };
+		F48DEDD52916C44500C16DC8 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48DEDD42916C44500C16DC8 /* Coordinator.swift */; };
+		F48DEDDA2916C44700C16DC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F48DEDD92916C44700C16DC8 /* Assets.xcassets */; };
+		F48DEDDD2916C44700C16DC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48DEDDB2916C44700C16DC8 /* LaunchScreen.storyboard */; };
+		F4DFA0422916D86A00356CF2 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFA0412916D86A00356CF2 /* TabCoordinator.swift */; };
+		F4DFA0462916F1F900356CF2 /* UpComingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFA0452916F1F900356CF2 /* UpComingViewController.swift */; };
+		F4DFA04A2916F26000356CF2 /* UpComingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFA0492916F26000356CF2 /* UpComingViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D0C49BBAD906EE48EB5AFFB /* Pods-globoplay-challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-globoplay-challenge.debug.xcconfig"; path = "Target Support Files/Pods-globoplay-challenge/Pods-globoplay-challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		D201E2B3B3CE2C69C16DBA40 /* Pods-globoplay-challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-globoplay-challenge.release.xcconfig"; path = "Target Support Files/Pods-globoplay-challenge/Pods-globoplay-challenge.release.xcconfig"; sourceTree = "<group>"; };
+		F4240CB12917EEAB000DB33B /* globoplay-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "globoplay-challenge.app"; path = "/Users/lucask84ever-2/Documents/GitHub/globoplay-desafio-mobile/build/Debug-iphoneos/globoplay-challenge.app"; sourceTree = "<absolute>"; };
+		F4240CB22917F105000DB33B /* FavoritesMoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesMoviesViewModel.swift; sourceTree = "<group>"; };
+		F4240CB42917F18C000DB33B /* FavoriteMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteMoviesViewController.swift; sourceTree = "<group>"; };
+		F48DEDCD2916C44500C16DC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F48DEDCF2916C44500C16DC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F48DEDD42916C44500C16DC8 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F48DEDD92916C44700C16DC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F48DEDDC2916C44700C16DC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F48DEDDE2916C44700C16DC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4DFA0412916D86A00356CF2 /* TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
+		F4DFA0452916F1F900356CF2 /* UpComingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpComingViewController.swift; sourceTree = "<group>"; };
+		F4DFA0492916F26000356CF2 /* UpComingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpComingViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F48DEDC72916C44500C16DC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6511786CC8DE934AE982D7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C49BBAD906EE48EB5AFFB /* Pods-globoplay-challenge.debug.xcconfig */,
+				D201E2B3B3CE2C69C16DBA40 /* Pods-globoplay-challenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F48DEDC12916C44500C16DC8 = {
+			isa = PBXGroup;
+			children = (
+				F48DEDCC2916C44500C16DC8 /* globoplay-challenge */,
+				C6511786CC8DE934AE982D7B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F48DEDCC2916C44500C16DC8 /* globoplay-challenge */ = {
+			isa = PBXGroup;
+			children = (
+				F48DEDCD2916C44500C16DC8 /* AppDelegate.swift */,
+				F48DEDCF2916C44500C16DC8 /* SceneDelegate.swift */,
+				F48DEDD92916C44700C16DC8 /* Assets.xcassets */,
+				F48DEDDE2916C44700C16DC8 /* Info.plist */,
+				F48DEDDB2916C44700C16DC8 /* LaunchScreen.storyboard */,
+				F4DFA04B2916F75100356CF2 /* Source */,
+			);
+			path = "globoplay-challenge";
+			sourceTree = "<group>";
+		};
+		F48DEDD12916C44500C16DC8 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				F48DEDD42916C44500C16DC8 /* Coordinator.swift */,
+				F4DFA0412916D86A00356CF2 /* TabCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		F48DEDD62916C44500C16DC8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4DFA0452916F1F900356CF2 /* UpComingViewController.swift */,
+				F4240CB42917F18C000DB33B /* FavoriteMoviesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F4DFA0482916F23700356CF2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F4DFA0492916F26000356CF2 /* UpComingViewModel.swift */,
+				F4240CB22917F105000DB33B /* FavoritesMoviesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F4DFA04B2916F75100356CF2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F48DEDD12916C44500C16DC8 /* Coordinators */,
+				F48DEDD62916C44500C16DC8 /* ViewControllers */,
+				F4DFA0482916F23700356CF2 /* ViewModel */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F48DEDC92916C44500C16DC8 /* globoplay-challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48DEDE12916C44700C16DC8 /* Build configuration list for PBXNativeTarget "globoplay-challenge" */;
+			buildPhases = (
+				C515AAC55A80FA53A65B45D9 /* [CP] Check Pods Manifest.lock */,
+				F48DEDC62916C44500C16DC8 /* Sources */,
+				F48DEDC72916C44500C16DC8 /* Frameworks */,
+				F48DEDC82916C44500C16DC8 /* Resources */,
+				CD076C1AB932101854306C2F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "globoplay-challenge";
+			productName = "globoplay-challenge";
+			productReference = F4240CB12917EEAB000DB33B /* globoplay-challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F48DEDC22916C44500C16DC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					F48DEDC92916C44500C16DC8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = F48DEDC52916C44500C16DC8 /* Build configuration list for PBXProject "globoplay-challenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F48DEDC12916C44500C16DC8;
+			productRefGroup = F48DEDC12916C44500C16DC8;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F48DEDC92916C44500C16DC8 /* globoplay-challenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F48DEDC82916C44500C16DC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48DEDDA2916C44700C16DC8 /* Assets.xcassets in Resources */,
+				F48DEDDD2916C44700C16DC8 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C515AAC55A80FA53A65B45D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-globoplay-challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD076C1AB932101854306C2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-globoplay-challenge/Pods-globoplay-challenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-globoplay-challenge/Pods-globoplay-challenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-globoplay-challenge/Pods-globoplay-challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F48DEDC62916C44500C16DC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DFA0462916F1F900356CF2 /* UpComingViewController.swift in Sources */,
+				F48DEDD52916C44500C16DC8 /* Coordinator.swift in Sources */,
+				F4240CB32917F105000DB33B /* FavoritesMoviesViewModel.swift in Sources */,
+				F4240CB52917F18C000DB33B /* FavoriteMoviesViewController.swift in Sources */,
+				F48DEDCE2916C44500C16DC8 /* AppDelegate.swift in Sources */,
+				F4DFA04A2916F26000356CF2 /* UpComingViewModel.swift in Sources */,
+				F48DEDD02916C44500C16DC8 /* SceneDelegate.swift in Sources */,
+				F4DFA0422916D86A00356CF2 /* TabCoordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F48DEDDB2916C44700C16DC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48DEDDC2916C44700C16DC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F48DEDDF2916C44700C16DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F48DEDE02916C44700C16DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F48DEDE22916C44700C16DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0C49BBAD906EE48EB5AFFB /* Pods-globoplay-challenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24CMM4XT5Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "globoplay-challenge/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lucask84ever.globoplay-challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F48DEDE32916C44700C16DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D201E2B3B3CE2C69C16DBA40 /* Pods-globoplay-challenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24CMM4XT5Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "globoplay-challenge/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lucask84ever.globoplay-challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F48DEDC52916C44500C16DC8 /* Build configuration list for PBXProject "globoplay-challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48DEDDF2916C44700C16DC8 /* Debug */,
+				F48DEDE02916C44700C16DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F48DEDE12916C44700C16DC8 /* Build configuration list for PBXNativeTarget "globoplay-challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48DEDE22916C44700C16DC8 /* Debug */,
+				F48DEDE32916C44700C16DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F48DEDC22916C44500C16DC8 /* Project object */;
+}
